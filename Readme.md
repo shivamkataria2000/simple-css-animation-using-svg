@@ -4,7 +4,7 @@ This is a sample html page to demonstrate CSS animations using SVG (Scalable Vec
 
 ## Make your own
 
-1. Go to [Undraw](https://undraw.co/illustrations) and download that SVG that you like.
+1. Go to [Undraw](https://undraw.co/illustrations) and download the SVG that you like.
 2. Download [Figma](https://www.figma.com/downloads/)
 3. Import the downloaded SVG to a Figma project
 4. Group and name the layers that you want to animate on using <kbd>Ctrl</kbd> + <kbd>G</kbd>  or <kbd>⌘</kbd> + <kbd>G</kbd> on Mac
