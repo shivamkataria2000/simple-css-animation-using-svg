@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,div{
+    text-align: center;
+}
+#Plus{
+        animation: dropAndShrink 1s infinite ease-in-out alternate;
+        transform-origin: center;
+        transform-box: fill-box;
+}
+
+#Add{
+    animation: showAndGrow 1s infinite ease-in-out alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Cross,#Mid,#Remove{
+    animation: grow 1s infinite ease-in-out alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+#Mid.notransition {
+   animation: none;
+  }
+#Cross.notransition {
+   animation: none;
+  }
+#Remove.notransition {
+   animation: none;
+  }
+@keyframes dropAndShrink {
+    from{
+        transform: translateY(-100px) scale(0.8);
+    }
+    to {
+      transform: translateY(0px) scale(0.5);
+    }
+  }
+
+  @keyframes showAndGrow {
+    from{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+  }
+
+  @keyframes grow {
+    from{
+        transform: scale(0.8);
+    }
+    to {
+        transform: scale(1);
+    }
+  }
