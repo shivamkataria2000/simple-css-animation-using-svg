@@ -2,7 +2,7 @@
 
 This is a sample html page to demonstrate CSS animations using SVG (Scalable Vector Graphics)
 
->[Demo](https://smartshivkat.github.io/simple-css-animation-using-svg/)
+>[Demo](https://shivamkataria2000.github.io/simple-css-animation-using-svg/)
 
 ## Make your own
 
